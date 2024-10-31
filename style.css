@@ -46,7 +46,7 @@ body {
 
 header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-  min-height: 15vh;
+  height: 15vh;
 
   display: flex;
 }
@@ -680,21 +680,24 @@ header nav .burger:hover i {
 }
 
 @media only screen and (max-width: 768px) {
-
+  
+header{
+  height: 10rem;
+}
  header nav h1{
   font-size:2.5rem;
  }
 
   main .container .img {
-    margin-top: 4rem;
+    margin-top: 3rem;
     width: 250px;
     height: 250px;
    
 
   }
 main .container .text {
-  margin-top: 6rem;
-  color: antiquewhite;
+  margin-top: 4rem;
+  color: white;
   
 }
 
